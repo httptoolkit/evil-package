@@ -1,0 +1,17 @@
+{
+  "name": "evil-package",
+  "version": "1.0.0",
+  "description": "An npm package demonstrating how packages can steal your data (but not actually doing so!)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "evil",
+    "demo",
+    "attack",
+    "npm"
+  ],
+  "author": "Tim Perry <tim@httptoolkit.tech>",
+  "license": "Apache-2.0"
+}
