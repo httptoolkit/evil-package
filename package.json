@@ -4,8 +4,17 @@
   "description": "An npm package demonstrating how packages can steal your data (but not actually doing so!)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httptoolkit/evil-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/httptoolkit/evil-package/issues"
+  },
+  "homepage": "https://github.com/httptoolkit/evil-package",
   "keywords": [
     "evil",
     "demo",
@@ -13,5 +22,8 @@
     "npm"
   ],
   "author": "Tim Perry <tim@httptoolkit.tech>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
